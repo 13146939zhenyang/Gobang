@@ -1,13 +1,57 @@
+h1 {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  background-color: blanchedalmond;
+}
+
+.title {
+  text-align: center;
+  background: #99CCFF;
+  color: #FFFFFF;
+  background-color: #66CCFF;
+  height: 100px;
+  font-family: "Goldman", cursive;
+  font-size: 2.5rem;
+  text-shadow: white 1px 0 10px;
+}
+
 .grid {
   background-color: yellow;
-  height: 800px;
-  width: 800px;
+  border: 1px solid black;
+  height: 816px;
+  width: 816px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+  margin: auto;
 }
 
 .newNode {
-  background-color: blue;
+  border: 1px solid black;
   width: 100px;
   height: 100px;
+  display: flex;
+}
+
+.whitepiece {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  z-index: 1;
+}
+
+.blackpiece {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  margin: auto;
   z-index: 1;
 }
 
