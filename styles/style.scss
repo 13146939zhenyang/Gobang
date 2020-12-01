@@ -22,38 +22,41 @@ h1 {
 }
 
 .grid {
-    background-color: yellow;
-    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgb(206, 186, 186);
     height: 816px;
     width: 816px;
     display: flex;
     flex-wrap: wrap;
     flex: none;
     margin: auto;
+    background-image: url(/assets/RealBackground.jpg);
 }
 
 .newNode {
-    border: 1px solid black;
     width: 100px;
     height: 100px;
     display: flex;
-    // background-image: url(/assets/11.jpg);
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .whitepiece {
-    background-color: white;
-    width: 100px;
-    height: 100px;
+    background-color: whitesmoke;
+    width: 90px;
+    height: 90px;
     margin: auto;
     z-index: 1;
-    // border-radius: 50em;
+    border-radius: 50em;
+    box-shadow: 3px 3px 3px rgb(206, 186, 186);
 }
 
 .blackpiece {
     background-color: black;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     margin: auto;
     z-index: 1;
-    // border-radius: 50em;
+    border-radius: 50em;
+    box-shadow: 3px 3px 3px rgb(206, 186, 186);
 }
